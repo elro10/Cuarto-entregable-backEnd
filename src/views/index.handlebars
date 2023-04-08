@@ -1,0 +1,14 @@
+<div>
+    <h2>Lista de productos directa</h2>
+    
+    <div id="prodslist">
+        <ul>
+            {{#each prods}}
+                <li>Titulo:{{title}}, Id:{{id}}, Precio:{{price}}, Stock:{{stock}}</li>
+            {{/each}}
+        </ul>
+    </div>
+    <a href="http://localhost:8080/realtimeproducts">
+        <h2>Productos actualizados en tiempo real</h2>
+    </a>
+</div>
